@@ -6,8 +6,8 @@ import os
 import numpy as np
 
 MODEL_DIR = "models/finetuned_categories"
-INPUT_CSV = "data/processed/X_2024_combined.csv"
-OUTPUT_CSV = "data/cleaned/the_dataset.csv"
+INPUT_CSV = "data/cleaned/depression_suicide_corpus.csv"
+OUTPUT_CSV = "data/cleaned/depression_suicide_corpus_predicted.csv"
 BATCH_SIZE = 32
 MAX_LEN = 128
 NUM_LABELS = 4
